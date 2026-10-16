@@ -1,0 +1,14 @@
+{
+  "name": "free-vps-panel",
+  "version": "1.0.0",
+  "description": "Free Docker VPS Panel with 1-hour expiry",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dockerode": "^4.0.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
